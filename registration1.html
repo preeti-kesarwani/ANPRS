@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./registration1.css">
+    <!-- <script src="./registration.js"></script> -->
+    <title>Document</title>
+</head>
+<body>
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous"> -->
+    <div class="registration-form">
+        <h1>Registration Form</h1>
+        <form action="./connect.php" method="post">
+        <p>Full Name</p>
+        <input type="text" name="FullName" placeholder=" Enter Full Name">
+        <p>Aadhar Card Number</p>
+        <input type="text" name="AadharCardNumber" placeholder=" Enter Number">
+        <p>License No:</p>
+        <input type="text" name="LicenceNo" placeholder="Enter License No">
+        <p>Vehicle No:</p>
+        <input type="text" name="VehicleNo" placeholder="Enter Vehicle No">
+        <p>Vehicle Type</p>
+        <input type="text" name="VehicleNo" placeholder="Enter Vehicle Type">
+        <p>Address</p>
+        <input type="text" name="Address" placeholder="Enter Address">
+        <p>Phone No:</p>
+        <input type="text" name="TokenNo" placeholder="Enter Token">
+        <p>Chasis No:</p>
+        <input type="text" name="ChasisNo" placeholder="Enter Chasis">
+        <p>DOB:</p>
+        <input type="text" name="DOB" placeholder="Enter DOB">
+        <!-- <div class="container">
+        <button type="submit" class="btn" onclick="openPopup()" >Submit</button>
+        <div class="popup" id="popup">
+        <img src="./404-tick.png">
+        <h2>Thank you</h2>
+        <p>Your details has been successfully submitted</p>
+        <button type="button" onclick="closePopup()" >OK</button>
+        </div>
+        </div> -->
+        </form> 
+    </div>
+    <div class="container">
+        <button type="submit" class="btn" onclick="openPopup()" >Submit</button>
+        <div class="popup" id="popup">
+        <img src="./404-tick.png">
+        <h2>Thank you</h2>
+        <p>Your details has been successfully submitted</p>
+        <button type="button" onclick="closePopup()" >OK</button>
+        </div>
+        </div>
+    <script>
+     let popup = document.getElementById("popup");
+     function openPopup(){
+        popup.classList.add("open_popup");
+     }
+     function closePopup(){
+        popup.classList.remove("open_popup");
+     }
+    </script>
+</body>
+</html>

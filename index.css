@@ -1,0 +1,185 @@
+.heading{
+    margin-top: 50px;
+   color: rgba(26, 26, 211, 0.781);
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 22px;
+}
+
+
+
+
+
+/* menu */
+.menu{
+    justify-content: space-around;
+    margin-top: 40px;
+   
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 25px;
+    font-style: none;
+}
+
+.menu ul li a{
+    font-size: 30px;
+    border-radius: 1px;
+    border-color:rgb(126, 124, 124);
+    color: black;
+    border-width: 1px;
+    text-decoration: none;
+    padding: 2px;
+}
+
+.menu ul li a:hover{
+    background-color:rgba(148, 197, 243, 0.781);
+}
+
+/* slider-frame */
+
+.slider-frame{
+    overflow: hidden;
+    height: 650px;
+    width: 1200px;
+    margin-left:50px;
+    margin-top: 1px;
+  }
+
+  @-webkit-keyframes slide_animation{
+    0%{left: 0px;}
+    10%{left: 0px;}
+    20%{left: 1200px;}
+    30%{left: 1200px;}
+    40%{left: 2400px;}
+    50%{left: 2400px;}
+    60%{left: 1200px;}
+    70%{left: 1200px;}
+    80%{left: 0px;}
+    90%{left: 0px;}
+    100%{left: 0px;}
+}
+
+.slide-images{
+    width: 6000px;
+    height: 550px;
+    margin: 0 0 0 -2400px;
+    position: relative;
+    -webkit-animation-name: slide_animation;
+    -webkit-animation-duration: 20s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+    -webkit-animation-play-state: running;
+    -webkit-animation-timing-function: 20s;
+
+}
+
+.img-container{
+    height: 800px;
+    width: 1200px;
+    position: relative;
+    float: left;
+}
+
+.container{
+    max-width: 1170px;
+    background-color: rgba(255, 0, 0, 0.021);
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+ul{
+    list-style: none;
+}
+
+
+.footer{
+    background-color: rgba(148, 197, 243, 0.781);
+    padding: 70px 0;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4{
+    font-size: 18px;
+    color: black;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: black;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 300;
+    color: grey;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: black;
+    padding-left: 8px;
+}
+
+/* .footer-col .social-links a{
+    display: flex;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: rgb(126, 124, 124);
+    transition: all 0.3s ease;
+    font-size: 25px;
+    margin-top: 200px;
+}  */
+
+
+/* .footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: pink;
+} */
+
+
+@media (max-width:76px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width:500x){
+    .footer-col{
+        width: 100%;
+       
+    }
+}

@@ -1,0 +1,248 @@
+*{
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    background-color:   rgb(9, 9, 48);
+}
+
+
+.section-container{
+    display: flex;
+    justify-content: space-between;
+    flex: wrap;
+   /* width: 50%; */
+
+}
+
+.section-container.paragraph{
+    flex: 0 0 auto;
+    /* width: 50%; */
+}
+
+.bold{
+    line-height: 5px;
+}
+
+.bold b p{
+    margin-left: 200px;
+    margin-top: 200px;
+    font-size: 30px;
+    line-height: 50px;
+    font-stretch: condensed;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    
+   }
+   
+   .para{
+       margin-left: 200px;
+       font-size: 20px;
+       color: black;
+       line-height: 30px;
+       /* margin-top: 200px; */
+   }
+   
+   .icons{
+       margin-top: 20px;
+       margin-left: 200px;
+       /* padding-top: 100px; */
+       /* text-transform: lowercase; */
+       color: black;
+       line-height: 5px;
+   }
+   .icons i{
+       font-size: 20px;
+       /* width: 10px; */
+       /* height: 10px; */
+       /* margin-left: 100px; */
+   }
+   
+   .icons a{
+       font-size: 11px;
+       margin-left: 30px;
+       text-decoration: none;
+       text-transform: lowercase;
+       color: black;
+   
+   }
+   
+   .info a{
+       /* margin-left: 150px; */
+       margin-top: 90px;
+   }
+
+   .adress{
+    margin-left: 185px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 20px;
+}
+
+.block{
+    margin-right: 100px;
+}
+   .name input{
+    margin-top: 150px;
+    /* margin-left: 100px; */
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 215px;
+    border: solid black;   
+}
+
+.email input{ 
+    margin-top: 30px;
+    /* margin-left: 200px; */
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 215px;
+    border: solid black;
+}
+
+.message textarea{
+    /* margin-left: 200px; */
+    padding-right: 150px;
+    border: solid black;
+}
+.subject input{
+    margin-top: 30px;
+    /* margin-left: 200px; */
+    /* margin-right: 100px; */
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 215px;
+    border: solid black;
+} 
+*{
+    background-color:  rgba(148, 197, 243, 0.781);
+}
+
+
+.section-container{
+    display: flex;
+    justify-content: space-between;
+    flex: wrap;
+   /* width: 50%; */
+
+}
+
+.section-container.paragraph{
+    flex: 0 0 auto;
+    /* width: 50%; */
+}
+
+.bold{
+    line-height: 5px;
+}
+
+.bold b p{
+    margin-left: 200px;
+    margin-top: 200px;
+    font-size: 30px;
+    line-height: 50px;
+    font-stretch: condensed;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    
+   }
+   
+   .para{
+       margin-left: 200px;
+       font-size: 20px;
+       color: black;
+       line-height: 30px;
+       /* margin-top: 200px; */
+   }
+   
+   .icons{
+       margin-top: 20px;
+       margin-left: 200px;
+       /* padding-top: 100px; */
+       /* text-transform: lowercase; */
+       color: black;
+       line-height: 5px;
+   }
+   .icons i{
+       font-size: 20px;
+       /* width: 10px; */
+       /* height: 10px; */
+       /* margin-left: 100px; */
+   }
+   
+   .icons a{
+       font-size: 11px;
+       margin-left: 30px;
+       text-decoration: none;
+       text-transform: lowercase;
+       color: black;
+   
+   }
+   
+   .info a{
+       /* margin-left: 150px; */
+       margin-top: 90px;
+   }
+
+.block{
+    margin-right: 100px;
+}
+   .name input{
+    margin-top: 150px;
+    /* margin-left: 100px; */
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 215px;
+    border: solid black;
+    padding-left: 10px;   
+}
+
+.email input{ 
+    margin-top: 30px;
+    /* margin-left: 200px; */
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 215px;
+    border: solid black;
+}
+
+.message textarea{
+    /* margin-left: 200px; */
+    padding-right: 150px;
+    border: solid black;
+    font-style: normal;
+}
+.subject input{
+    margin-top: 30px;
+    /* margin-left: 200px; */
+    /* margin-right: 100px; */
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 215px;
+    border: solid black;
+} 
+
+.p iframe{
+   margin-left: 100px;
+}
+
+.button{
+    margin-left: 790px; 
+    font-size: 10px;
+    color: grey;
+}
+
+.button input{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 150px;
+    border: solid black;
+}
+
+.button input:hover{
+    background-color: yellow;
+}
+
+.adress pre p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-weight: 10px;
+    font: 3px;
+}

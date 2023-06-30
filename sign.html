@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./login.css">
+</head>
+<body>
+    <div class="signup-box">
+        <h1>Sign Up</h1>
+        <h4>It's free and only takes a minute</h4>
+        <form action="#" method="" >
+            <label >First Name</label>
+            <input type="First Name"   placeholder="" name="First Name">
+            <label >Last Name</label>
+            <input type="Last Name" placeholder="" name="Last Name">
+            <label >Email</label>
+            <input type="Email" placeholder="" name="Email">
+            <label >Password</label>
+            <input type="Password" placeholder="" name="Password">
+            <label >Confirm Password</label>
+            <input type="Confirm Password"  placeholder="" name="Confirm Password">
+   
+            <button type="submit" class="btn" onclick="openPopup()" >Submit</button>
+            <!-- <input type="button" value="submit" onclick=""()> -->
+        </form>
+        <p>By clicking the Sign Up button you will agree to our</p><br>
+        <a href="#">Terms and Condition</a>and<a href="#">Policy privacy</a>
+    </div>
+    <p class="para-2">Already have an account? <a href="./login.html">Login here</a></p>
+
+    <div class="container">
+        <button type="submit" class="btn" onclick="openPopup()" >Submit</button>
+        <div class="popup" id="popup">
+        <img src="./404-tick.png">
+        <h2>Thank you</h2>
+        <p>Your account has been created</p>
+        <button type="button" onclick="closePopup()" >OK</button>
+        </div>
+        </div>
+    <script>
+     let popup = document.getElementById("popup");
+     function openPopup(){
+        popup.classList.add("open_popup");
+     }
+     function closePopup(){
+        popup.classList.remove("open_popup");
+     }
+    </script>
+</body>
+</html>
